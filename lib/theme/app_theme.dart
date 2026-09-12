@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class AppTheme {
-  // Brand Colors
   static const Color primaryRed = Color(0xFFE53935);
   static const Color primaryDarkRed = Color(0xFFB71C1C);
   static const Color burntOrange = Color(0xFFE04328);
@@ -16,7 +15,6 @@ class AppTheme {
   static const Color borderLight = Color(0xFFE5E7EB);
   static const Color chipBg = Color(0xFFF3F4F6);
   static const Color iconBgLight = Color(0xFFFDE8E4);
-
   static ThemeData get lightTheme {
     return ThemeData(
       useMaterial3: true,
